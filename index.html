@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudyMate AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">🎓 <span>StudyMate <b>AI</b></span></div>
+    <button class="nav active" data-page="home">🏠 Home</button>
+    <button class="nav" data-page="planner">🤖 AI Planner</button>
+    <button class="nav" data-page="tasks">📝 Tasks</button>
+    <button class="nav" data-page="focus">⏱️ Focus</button>
+    <button class="nav" data-page="progress">📊 Progress</button>
+    <button class="nav" data-page="exams">📅 Exams</button>
+    <button class="nav" data-page="chat">💬 AI Chat</button>
+    <button class="nav" data-page="mood">😊 Mood Check</button>
+    <button class="nav" data-page="profile">👤 Profile</button>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div><span class="muted">StudyMate AI</span><h1 id="pageTitle">Good Morning, Devadharshini 👋</h1></div>
+      <div class="streak">🔥 7 day streak</div>
+    </header>
+    <section id="content"></section>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
